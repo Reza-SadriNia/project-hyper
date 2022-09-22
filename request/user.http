@@ -1,0 +1,15 @@
+### get user profile
+Get http://localhost:3010/user/userprofile
+Authorization: Bearer {{$dotenv token}}
+
+### edit user profile
+Post http://localhost:3010/user/editprofile/63283ead5ac5bc5843a44f5f
+Content-Type: application/json
+Authorization: Bearer {{$dotenv token}}
+
+{
+  "first_name" : "karim" , 
+  "last_name" : "karimpour",
+  "age" : "25",
+  "skill" : ["React" , "JS" , "cisco"]
+}

@@ -1,0 +1,23 @@
+### Register 
+Post http://localhost:3010/auth/register
+Content-Type: application/json
+
+{
+  "first_name" : "ahmad",
+  "last_name" : "ahmadiii",
+  "age": "26",
+  "username" : "ahmad",
+  "email" : "ahmad@gmail.com",
+  "password" : "ahmad@0021",
+  "confirm_password" : "ahmad@0021",
+  "phone" : "0916345654"
+}
+
+### Login 
+Post http://localhost:3010/auth/login
+Content-Type: application/json
+
+{
+  "username" : "ahmad",
+  "password" : "ahmad@0021"
+}

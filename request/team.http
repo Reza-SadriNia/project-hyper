@@ -1,0 +1,19 @@
+### Create Team 
+Post http://localhost:3010/team/create
+Content-Type: application/json 
+Authorization: Bearer {{$dotenv token}}
+
+{
+  "name" : "Team2",
+  "description" : "Desc Team2"
+}
+
+### Get All Teams
+Get http://localhost:3010/team/listOfTeam/
+Content-Type: application/json
+Authorization: Bearer {{$dotenv token}}
+
+### Get team By Id
+Get http://localhost:3010/team/632ae0593bea021794dc144b
+Content-Type: application/json
+Authorization: Bearer {{$dotenv token}}
